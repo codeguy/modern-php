@@ -1,0 +1,5 @@
+{
+    "require": {
+        "filp/whoops": "~1.0"
+    }
+}
