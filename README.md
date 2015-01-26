@@ -16,7 +16,9 @@ Modern PHP reveals these new language features in action. Author Josh Lockhartâ€
 
 <dl>
     <dt>Title</dt>
-    <dd>Modern PHP By: Josh Lockhart Publisher:O'Reilly Media</dd>
+    <dd>Modern PHP
+    <dt>By</dt>
+    <dd>Josh Lockhart Publisher:O'Reilly Media</dd>
     <dt>Formats</dt>
     <dd>Print, Safari Books Online</dd>
     <dt>Print</dt>
