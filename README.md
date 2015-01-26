@@ -24,7 +24,7 @@ Modern PHP reveals these new language features in action. Author Josh Lockhartâ€
     <dt>Formats</dt>
     <dd>Print, Safari Books Online</dd>
     <dt>Print</dt>
-    <dd>February 2025 (est.)</dd>
+    <dd>February 2015 (est.)</dd>
     <dt>Pages</dt>
     <dd>258 (est.)</dd>
     <dt>Print ISBN</dt>
