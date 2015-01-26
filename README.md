@@ -53,7 +53,7 @@ If you feel your use of code examples falls outside fair use or the permission g
 
 ## Safari® Books Online
 
-Safari Books Online is an on-demand digital library that deliv‐ ers expert content in both book and video form from the world’s leading authors in technology and business.
+Safari Books Online is an on-demand digital library that delivers expert content in both book and video form from the world’s leading authors in technology and business.
 
 Technology professionals, software developers, web designers, and business and crea‐ tive professionals use Safari Books Online as their primary resource for research, problem solving, learning, and certification training.
 
