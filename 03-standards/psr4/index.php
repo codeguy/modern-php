@@ -4,7 +4,7 @@
  *
  * After registering this autoload function with SPL, the following line
  * would cause the function to attempt to load the \Foo\Bar\Baz\Qux class
- * from /path/to/project/src/Baz/Qux.php:
+ * from /path/to/project/src/Bar/Baz/Qux.php:
  *
  *      new \Foo\Bar\Baz\Qux;
  *
