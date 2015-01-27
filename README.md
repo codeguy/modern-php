@@ -6,7 +6,7 @@ This is the companion code repository for [Modern PHP](http://shop.oreilly.com/p
 
 The PHP language is different than you remember. No longer just about procedural code and monolithic frameworks, PHP has experienced a renaissance to become a full-featured, mature language with object-orientation, namespaces, and a growing collection of reusable component libraries.
 
-Modern PHP reveals these new language features in action. Author Josh Lockhart—creator of PHP The Right Way, a popular community initiative—shows you how to develop PHP applications using best practices for application architecture and planning, databases, security, testing, debugging, and deployment.
+Modern PHP reveals these new language features in action. Author Josh Lockhart—creator of [PHP The Right Way](http://www.phptherightway.com/), a popular community initiative—shows you how to develop PHP applications using best practices for application architecture and planning, databases, security, testing, debugging, and deployment.
 
 * Learn detailed, practical techniques that you can immediately implement in your PHP project
 * Grow your PHP skillset with the newest language features and modern best practices
