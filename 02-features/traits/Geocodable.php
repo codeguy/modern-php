@@ -9,7 +9,7 @@ trait Geocodable {
     /** @var \Geocoder\Result\Geocoded */
     protected $geocoderResult;
 
-    public function setGeocoder(\Geocoder\GeocoderInterface $geocoder)
+    public function setGeocoder(\Geocoder\Geocoder $geocoder)
     {
         $this->geocoder = $geocoder;
     }
@@ -25,7 +25,7 @@ trait Geocodable {
             $this->geocodeAddress();
         }
 
-        return $this->geocoderResult->getLatitude();
+        return $this->geocoderResult->first()->getLatitude();
     }
 
     public function getLongitude()
@@ -34,7 +34,7 @@ trait Geocodable {
             $this->geocodeAddress();
         }
 
-        return $this->geocoderResult->getLongitude();
+        return $this->geocoderResult->first()->getLongitude();
     }
 
     protected function geocodeAddress()
