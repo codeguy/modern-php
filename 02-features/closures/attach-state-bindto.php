@@ -1,7 +1,7 @@
 <?php
 class App
 {
-    protected $routes = array();
+    protected $routes = [];
     protected $responseStatus = '200 OK';
     protected $responseContentType = 'text/html';
     protected $responseBody = 'Hello world';
