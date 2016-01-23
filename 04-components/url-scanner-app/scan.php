@@ -6,7 +6,7 @@ require 'vendor/autoload.php';
 $client = new \GuzzleHttp\Client();
 
 // 3. Open and iterate CSV
-$csv = new \League\Csv\Reader($argv[1]);
+$csv = \League\Csv\Reader::createFromPath($argv[1]);
 foreach ($csv as $csvRow) {
     try {
         // 4. Send HTTP OPTIONS request
