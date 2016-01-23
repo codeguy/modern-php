@@ -1,15 +1,16 @@
 <?php
-trait Geocodable {
+trait Geocodable
+{
     /** @var string */
     protected $address;
 
     /** @var \Geocoder\Geocoder */
     protected $geocoder;
 
-    /** @var \Geocoder\Result\Geocoded */
+    /** @var \Geocoder\Model\AddressCollection */
     protected $geocoderResult;
 
-    public function setGeocoder(\Geocoder\GeocoderInterface $geocoder)
+    public function setGeocoder(\Geocoder\Geocoder $geocoder)
     {
         $this->geocoder = $geocoder;
     }
@@ -21,20 +22,20 @@ trait Geocodable {
 
     public function getLatitude()
     {
-        if (isset($this->geocoderResult) === false) {
+        if (!isset($this->geocoderResult)) {
             $this->geocodeAddress();
         }
 
-        return $this->geocoderResult->getLatitude();
+        return $this->geocoderResult->first()->getLatitude();
     }
 
     public function getLongitude()
     {
-        if (isset($this->geocoderResult) === false) {
+        if (!isset($this->geocoderResult)) {
             $this->geocodeAddress();
         }
 
-        return $this->geocoderResult->getLongitude();
+        return $this->geocoderResult->first()->getLongitude();
     }
 
     protected function geocodeAddress()
