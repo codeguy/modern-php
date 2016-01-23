@@ -1,10 +1,10 @@
 <?php
 function getRows($file) {
     $handle = fopen($file, 'rb');
-    if ($handle === false) {
+    if (!$handle) {
         throw new Exception();
     }
-    while (feof($handle) === false) {
+    while (!feof($handle)) {
         yield fgetcsv($handle);
     }
     fclose($handle);

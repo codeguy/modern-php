@@ -10,5 +10,5 @@ function makeRange($length) {
 
 $customRange = makeRange(1000000);
 foreach ($customRange as $i) {
-    echo $i, PHP_EOL;
+    echo $i . PHP_EOL;
 }

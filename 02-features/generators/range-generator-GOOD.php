@@ -6,5 +6,5 @@ function makeRange($length) {
 }
 
 foreach (makeRange(1000000) as $i) {
-    echo $i, PHP_EOL;
+    echo $i . PHP_EOL;
 }

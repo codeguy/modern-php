@@ -6,5 +6,5 @@ function myGenerator() {
 }
 
 foreach (myGenerator() as $value) {
-    echo $value, PHP_EOL;
+    echo $value . PHP_EOL;
 }
