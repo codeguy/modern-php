@@ -24,7 +24,7 @@ try {
 $sql = 'SELECT id, email FROM users WHERE email = :email';
 $statement = $pdo->prepare($sql);
 $email = filter_input(INPUT_GET, 'email');
-$statement->bindValue(':email', $email, PDO::PARAM_INT);
+$statement->bindValue(':email', $email, PDO::PARAM_STR);
 
 // Iterate results one at a time
 echo 'One result as a time as associative array', PHP_EOL;
